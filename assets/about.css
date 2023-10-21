@@ -1,0 +1,478 @@
+@font-face {
+    font-family: Arial;
+    src: url(ARIAL.TTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto' , sans-serif;
+}
+p,span{
+    font-family: 'Arial';
+}
+.about{
+    background-image: url(images/01.png);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: right;
+    padding: 150px 70px;
+}
+.about-us h2{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.about-us p{
+    font-size: 20px;
+    color: #ececf1;
+}
+.nav-list .links{
+    list-style-type: none;
+    font-family: 'myFirstFont';
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Arial';
+}
+.nav-list .active,.nav-list .active a{
+    color: #138bce;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 200px;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    font-family: 'myFirstFont';
+}
+.company{
+    margin-top: 50px;
+}
+.company h2{
+    color: #138bce;
+    text-align: center;
+    font-weight:700;
+    font-size: 35px;
+}
+.company p{
+    margin: auto;
+    padding: 20px 100px;
+    color: black;
+    font-size: 18px;
+    line-height: 40px;
+}
+.Mission{
+    width: 460px;
+    height: 250px;
+    background-color: #c7e6f7;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.Vision{
+    width: 460px;
+    height: 250px;
+    background-color: #c7e6f7;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.Vision h2, .Mission h2{
+    color: #138bce;
+    font-size: 35px;
+}.Vision p, .Mission p{
+    color: black;
+    font-size: 18px;
+    line-height: 40px;
+    padding-top: 20px;
+}
+.corporate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+.footer{
+    margin-top: 100px;
+}
+.corporate h2{
+    color: #138bce;
+    font-size: 35px;
+}.corporate p{
+    color: black;
+    font-size: 18px;
+    line-height: 40px;
+    width: 95%;
+    padding-top: 30px;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.management p{
+    color: black;
+    font-size: 18px;
+    line-height: 40px;
+    width: 90%;
+    padding-top: 30px;
+}
+.management span{
+    font-weight: bolder;
+}
+.management{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.management h2{
+    color: #138bce;
+    font-size: 35px;
+}
+.management ul{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 90px;
+}
+.management ul li p{
+    width: 90%;
+}
+footer{
+    display: flex;
+    background-color: #bfbfbf;
+    width: 100%;
+    padding:50px  70px;
+    gap: 60px;
+    margin-top: 50px;
+   
+}
+.footer1{
+    display: grid;
+    color: #131313;
+    /* margin-left: 80px; */
+}
+.footer1 img{
+    height: 80px;
+}
+.footer1 p{
+    font-size: 15px;
+  line-height: 30px;
+  margin-top: 20px;
+  width: 400px;
+  
+}
+.icons{
+    display: inline-block;
+    margin-top: 20px;
+    gap: 20px;
+}
+.icons i{
+    margin-right: 20px;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    color: #131313;
+    margin-top: 35px;
+}
+.footer2 h6{
+    font-size: 15px;
+
+}
+.footer2 a{ 
+    text-decoration: none;
+    color: #131313;
+    font-size: 15px;
+
+}
+.footer2 p{
+    margin-top: 25px;
+}
+.footer3 h6{
+    color: #131313;
+    font-size: 15px;
+
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    color: #131313;
+    /* margin-left: 60px;  */
+    margin-top: 35px;
+    font-size: 15px;
+
+}
+.footer3 a{ 
+    text-decoration: none;
+    color: #131313;
+    margin-top: 20px;
+    font-size: 18px;
+    font-size: 15px;
+    
+
+}
+.footer3 h6{
+    color: #131313;
+    font-size: 15px;
+
+}
+.footer3 p{
+    margin-top: 25px;
+}
+.footer4{
+    display: flex;
+    flex-direction: column;
+    color: #131313;
+    margin-top: 35px;
+    font-size: 15px;
+    margin-right: 80px;
+}
+
+.footer4 h6{
+    color: #131313;
+    font-size: 15px;
+
+}   
+.addy{
+    margin-top: 25px;
+    color: #131313;
+    display: flex;
+    flex-direction: row;
+    
+}
+.addy i{
+    margin-right: 15px;
+}
+.addy p{
+    color: #131313;
+    font-size: 15px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: -5px;
+    
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #fff;
+}
+.copyright p{
+    color: #bfbfbf;
+    font-size: 15px;
+    font-size: 15px;
+    line-height: 30px;
+   
+    
+}
+.copyright b{
+    color: #bfbfbf;
+    font-size: 15px;
+    font-size: 15px;
+    line-height: 30px;
+   
+    
+}
+/*Hamburger code*/
+.hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  @media only screen and (max-width: 414px){
+    .Mission{
+        width: 200px;
+        height: 250px;
+        padding: 30px;
+    }
+    .Vision{
+        width: 300px;
+        padding: 30px;
+        margin-top: 30px;
+    }
+  }
+@media only screen and (max-width: 790px) {
+    body{
+        overflow-x: hidden;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 60px;
+       
+    }
+    .copyright{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-y: hidden;
+    }
+    .about{
+        height: 50vh;
+    }
+    .about-us{
+        padding: 100px 50px;
+    }
+    .about-us h2{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+    .about-us p{
+        font-size: 16px;
+        color: #ececf1;
+    }
+    .header{
+        padding: 5px 45px;
+    }
+    .logo img{
+        width: 170px;
+    }
+    .nav-list{
+        width: 350px;
+    }
+    .nav-list li a{
+        font-size: 15px;
+    }
+    .company{
+        margin-top: 50px;
+    }
+    .company h2{
+        font-size: 30px;
+    }
+    .company p{
+        padding: 10px 50px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .Mission{
+        width: 400px;
+        height: 200px;
+        padding: 30px;
+    }
+    .information{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 450px;
+        align-items: center;
+    }
+    .Vision{
+        width: 400px;
+        padding: 30px;
+        margin-top: 30px;
+    }
+    
+    .Vision h2, .Mission h2{
+        font-size: 30px;
+    }.Vision p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .Mission p{
+        line-height: 30px;
+    }
+    .corporate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        margin-top: 30px;
+    }
+    .corporate h2{
+        font-size: 30px;
+    }.corporate p{
+        font-size: 18px;
+        line-height: 35px;
+        padding-top: 15px;
+    }
+    .management p{
+        font-size: 18px;
+        line-height: 35px;
+        width: 85%;
+        padding-top: 20px;
+    }
+    .management span{
+        font-weight: bolder;
+    }
+    .management{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .management h2{
+        font-size: 30px;
+    }
+    .management ul{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0 0 70px;
+    }
+
+    .info1{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .info1 i{
+        font-size: 25px;
+    }
+    #two{
+        font-size: 15px;
+        color: black;
+        font-family: 'Arial';
+        line-height: 25px;
+        padding-left: 20px;
+    }
+}
